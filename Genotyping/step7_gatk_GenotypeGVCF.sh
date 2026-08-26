@@ -12,12 +12,13 @@ conda activate ngs
 
 #Directory design
 GenomeDir=$HOME/reference/tea/ChrLev/
-FastpDir=$HOME/Demo/fastp/
-BamDir=$HOME/Demo/bam/
-BamChrDir=$HOME/Demo/bam_chr/
-GVCFDir=$HOME/Demo/gvcf/
-GenomicsDBDir=$HOME/Demo/GenomicsDB/
-VCFDir=$HOME/Demo/vcf/
+FastqDir=$HOME/TeaGermplasm/fastq/
+FastpDir=$HOME/TeaGermplasm/fastp/
+BamDir=$HOME/TeaGermplasm/bam/
+BamChrDir=$HOME/TeaGermplasm/bam_chr/
+GVCFDir=$HOME/TeaGermplasm/gvcf/
+GenomicsDBDir=$HOME/TeaGermplasm/GenomicsDB/
+VCFDir=$HOME/TeaGermplasm/vcf/
 
 
 #gatk: GenotypeGVCFs
