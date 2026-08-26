@@ -14,4 +14,3 @@ source ~/miniconda3/etc/profile.d/conda.sh
 conda activate renv
 
 Rscript csvmerge.R
-#Rscript vcfR_geno_output.R
