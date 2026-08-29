@@ -21,9 +21,9 @@ pheno_train <- read.csv("data/pheno/pheno_TP139.csv", row.names = 1,fileEncoding
 pheno_ex <- read.csv("/data/pheno/pheno_EP104.csv", row.names = 1,fileEncoding="CP932")
 
 # Import geno -------------------------------------------------------------
-geno_train <- read.csv("/data/geno/geno_list_TP139_fromfiltered_maxmiss0.7_maf0.05_minDP1_imp.csv")
+geno_train <- read.csv("/data/geno/geno_list_TP139_maxmiss0.7_maf0.05_minDP1_imp.csv")
 geno_pred <- read.csv("/data/geno/geno_list_germplasm_maxmiss0.7_maf0.05_minDP1_imp.csv")
-geno_pred <- read.csv("/data/geno/geno_list_EP104_fromfiltered_maxmiss0.7_maf0.05_minDP1_imp.csv")
+geno_pred <- read.csv("/data/geno/geno_list_EP104_maxmiss0.7_maf0.05_minDP1_imp.csv")
 
 ### 共通するマーカーを抽出
 geno_joined <- inner_join(geno_train,geno_pred,by = "id",relationship = "many-to-many")
