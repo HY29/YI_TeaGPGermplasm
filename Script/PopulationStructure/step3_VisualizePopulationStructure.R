@@ -6,7 +6,7 @@ library(patchwork)
 setwd("/Users/ishiguro/01_Lab_experiment/02_GenomeBreedingPJ/01_PopulationAnalysis/")
 
 # Data import -------------------------------------------------------------
-geno <- read.csv("geno/geno_read50000over_maxmiss0.7_maf0.05_minDP1.csv")
+geno <- read.csv("geno/geno_list_germplasm_maxmiss0.7_maf0.05_minDP1_imp.csv")
 geno <- geno[,4:length(geno)]
 x <- t(geno)
 
