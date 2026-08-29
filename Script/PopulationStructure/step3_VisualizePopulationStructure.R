@@ -16,7 +16,7 @@ fam = read.table("data/concat.list_read50000_maxmiss0.7_maf0.05_minDP1_imp.fam",
                  header = FALSE,
                  stringsAsFactors = FALSE)
 
-Metadata = read.csv("/Users/ishiguro/01_Lab_experiment/13_論文執筆/Genomic predictions reveal the potential of tea germplasm in quality-related components and agronomic traits/Submit/v5/GitHub/Metadata_germplasm.csv",fileEncoding = "CP932")
+Metadata = read.csv("Metadata_germplasm.csv",fileEncoding = "CP932")
 Metadata2 = Metadata %>% 
   arrange(SampleID)
 
